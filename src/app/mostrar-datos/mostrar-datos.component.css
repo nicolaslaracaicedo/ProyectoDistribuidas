@@ -1,0 +1,161 @@
+/* Estilo para el contenedor general */
+.container {
+  margin-top: 30px;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+
+/* Estilo para el botón principal */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-bottom: 20px; /* Espacio inferior al botón */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la tabla */
+.table-responsive {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+/* Filas alternas y hover en tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Estilo para la tabla primaria */
+.table-primary {
+  background-color: #d6e9f7;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.table th {
+  font-weight: bold;
+  color: #343a40;
+  text-align: center;
+}
+
+/* Iconos de la tabla */
+i {
+  margin-right: 8px;
+}
+
+/* Estilo para los encabezados */
+thead th {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+/* Estilo para las filas de la tabla */
+tbody tr td {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+/* Estilos adicionales para el botón de cargar datos */
+button i {
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+/* Estilo para el formulario */
+form {
+  background-color: #fff;
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px; /* Padding adicional para el formulario */
+}
+
+/* Estilo para los campos de formulario */
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+}
+
+/* Estilo para el título del formulario */
+h4 {
+  font-size: 1.5rem;
+  color: #495057;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los botones en el formulario */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #4e555b;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Espaciado entre los botones */
+.d-flex .btn {
+  margin-top: 10px;
+}
+
+/* Alineación de etiquetas del formulario */
+label {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Añadir espacio entre los campos del formulario */
+.mb-3 {
+  margin-bottom: 20px;
+}

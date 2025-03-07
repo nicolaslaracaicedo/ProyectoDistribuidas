@@ -1,0 +1,96 @@
+/* Estilo para el contenedor general */
+.container {
+    margin-top: 10px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #cdd6df; /* Fondo gris claro */
+    margin-top: 30px;
+    border: 2px solid #333; /* Borde más oscuro */
+    max-width: 600px; /* Limita el ancho del formulario */
+    width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible hasta 600px */
+  }
+  
+  /* Título del formulario */
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Estilo para las etiquetas de los campos */
+  .form-label {
+    font-weight: 600;
+    color: #495057;
+  }
+  
+  /* Estilo para los campos de entrada */
+  .input-group {
+    margin-bottom: 20px;
+    
+  }
+  
+  .input-group-text {
+    background-color: #f1f1f1;
+    border-color: #ddd;
+    color: #007bff;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Efecto de foco en los campos de entrada */
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Estilo para el botón de envío */
+  button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Iconos dentro de los campos de entrada */
+  input[type="text"], input[type="number"], textarea {
+    padding-left: 10px;
+  }
+  
+  /* Estilo para el icono en el botón */
+  button[type="submit"] i {
+    font-size: 1.3rem;
+    margin-right: 10px;
+  }
+  
+  

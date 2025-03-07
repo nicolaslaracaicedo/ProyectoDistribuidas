@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Tienda de Productos WILLSTOPP</a>
+
+  <div class="ml-auto">
+    <button *ngIf="isLoggedIn" (click)="toggleIngreso()" class="btn btn-secondary mr-2">
+      {{ showIngreso ? 'Ocultar Ingreso de Datos' : 'Ingresar un nuevo Producto' }}
+    </button>
+
+    <button *ngIf="isLoggedIn" (click)="logout()" class="btn btn-danger">
+      Cerrar Sesión
+    </button>
+  </div>
+</nav>
+
+<!-- Contenido -->
+<div *ngIf="!isLoggedIn">
+  <app-login (loginSuccess)="onLoginSuccess()"></app-login>
+</div>
+
+<div *ngIf="isLoggedIn">
+  <app-mostrar-datos></app-mostrar-datos>
+  <app-ingreso-datos *ngIf="showIngreso"></app-ingreso-datos>
+</div>
+
+<router-outlet></router-outlet>
